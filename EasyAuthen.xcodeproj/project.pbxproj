@@ -12,6 +12,7 @@
 		4FB580F71F28881000A343C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FB580F51F28881000A343C6 /* Main.storyboard */; };
 		4FB580F91F28881000A343C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FB580F81F28881000A343C6 /* Assets.xcassets */; };
 		4FB580FC1F28881000A343C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FB580FA1F28881000A343C6 /* LaunchScreen.storyboard */; };
+		4FB581041F288BFB00A343C6 /* PKRU_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FB581031F288BFB00A343C6 /* PKRU_Logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4FB580F81F28881000A343C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FB580FB1F28881000A343C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FB580FD1F28881000A343C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FB581031F288BFB00A343C6 /* PKRU_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PKRU_Logo.png; path = ../../PKRU_Logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				4FB580F11F28881000A343C6 /* AppDelegate.swift */,
 				4FB580F31F28881000A343C6 /* ViewController.swift */,
+				4FB581031F288BFB00A343C6 /* PKRU_Logo.png */,
 				4FB580F51F28881000A343C6 /* Main.storyboard */,
 				4FB580F81F28881000A343C6 /* Assets.xcassets */,
 				4FB580FA1F28881000A343C6 /* LaunchScreen.storyboard */,
@@ -125,6 +128,7 @@
 			files = (
 				4FB580FC1F28881000A343C6 /* LaunchScreen.storyboard in Resources */,
 				4FB580F91F28881000A343C6 /* Assets.xcassets in Resources */,
+				4FB581041F288BFB00A343C6 /* PKRU_Logo.png in Resources */,
 				4FB580F71F28881000A343C6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
