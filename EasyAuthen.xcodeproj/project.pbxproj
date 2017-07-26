@@ -13,6 +13,7 @@
 		4FB580F91F28881000A343C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FB580F81F28881000A343C6 /* Assets.xcassets */; };
 		4FB580FC1F28881000A343C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FB580FA1F28881000A343C6 /* LaunchScreen.storyboard */; };
 		4FB581041F288BFB00A343C6 /* PKRU_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FB581031F288BFB00A343C6 /* PKRU_Logo.png */; };
+		4FB581061F289E9D00A343C6 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4FB581051F289E9D00A343C6 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4FB580FB1F28881000A343C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FB580FD1F28881000A343C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FB581031F288BFB00A343C6 /* PKRU_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PKRU_Logo.png; path = ../../PKRU_Logo.png; sourceTree = "<group>"; };
+		4FB581051F289E9D00A343C6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		4FB580E51F28881000A343C6 = {
 			isa = PBXGroup;
 			children = (
+				4FB581051F289E9D00A343C6 /* README.md */,
 				4FB580F01F28881000A343C6 /* EasyAuthen */,
 				4FB580EF1F28881000A343C6 /* Products */,
 			);
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FB581061F289E9D00A343C6 /* README.md in Sources */,
 				4FB580F41F28881000A343C6 /* ViewController.swift in Sources */,
 				4FB580F21F28881000A343C6 /* AppDelegate.swift in Sources */,
 			);

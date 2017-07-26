@@ -72,7 +72,17 @@
                                 <color key="backgroundColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="LoginButtom:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QDp-N7-Pep"/>
+                                </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pleas Login" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7xI-k8-qvl">
+                                <rect key="frame" x="28" y="345" width="324" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
@@ -89,9 +99,15 @@
                             <constraint firstItem="2XZ-wf-3Bi" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="wCq-je-vxY"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="LoginButtom" destination="1AF-L7-CHn" id="Gn1-Cm-XL2"/>
+                        <outlet property="PasswordTextField" destination="V5Z-QO-eDJ" id="fRZ-8a-MYX"/>
+                        <outlet property="UserTextFiel" destination="T6C-Cn-Kzh" id="KDT-Bk-zbx"/>
+                        <outlet property="messageLebel" destination="7xI-k8-qvl" id="wbF-gd-tnx"/>
+                    </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="24.637681159420293" y="35.869565217391305"/>
+            <point key="canvasLocation" x="23.199999999999999" y="35.532233883058474"/>
         </scene>
     </scenes>
     <resources>
