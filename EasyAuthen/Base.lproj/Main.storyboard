@@ -85,10 +85,10 @@
                                 </constraints>
                                 <color key="textColor" red="0.80000001190000003" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ehH-8E-2Fj">
-                                <rect key="frame" x="80" y="283" width="254" height="30"/>
+                                <rect key="frame" x="100.66666666666669" y="283" width="213" height="30"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -120,6 +120,7 @@
                             <constraint firstItem="2XZ-wf-3Bi" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="eEK-bM-KIx"/>
                             <constraint firstItem="2XZ-wf-3Bi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="f8Q-bm-QEB"/>
                             <constraint firstAttribute="trailingMargin" secondItem="vBA-eo-lG7" secondAttribute="trailing" id="ghU-xI-tBl"/>
+                            <constraint firstItem="ehH-8E-2Fj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hGk-mx-2Fv"/>
                             <constraint firstAttribute="trailingMargin" secondItem="vBA-eo-lG7" secondAttribute="trailing" id="kdP-dE-y1r"/>
                             <constraint firstItem="rft-P3-0me" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nxj-m4-41A"/>
                             <constraint firstItem="rft-P3-0me" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="p44-XY-SOx"/>
